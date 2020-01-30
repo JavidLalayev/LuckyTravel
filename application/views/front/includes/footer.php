@@ -74,17 +74,6 @@
                         <div class="contact-line color-grey-3"><i class="fa fa-phone"></i><a href="tel:93123456789"><?php echo $contact["phone"]?></a></div>
                         <div class="contact-line color-grey-3"><i class="fa fa-envelope-o"></i><a href="mailto:"><?php echo $contact["email"]?></a></div>
                         <div class="contact-line color-grey-3"><i class="fa fa-whatsapp"></i><a href="#"><?php echo $contact["whatsapp"]?></a></div>
-                        <div class="contact-line color-grey-3">
-                            <?php echo $this->lang->line("visitors")?>
-                            <br>
-                            <!-- Unique visitors -->
-                            <a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.cutercounter.com/hits.php?id=humxdkqno&nd=5&style=3" border="0" alt="hit counter"></a>
-                            <!-- Unique visitors -->
-
-                            <!-- Page view -->
-<!--                            <a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=gvexocxf&nd=6&style=1" border="0" alt="web counter"></a>-->
-                            <!-- Page view -->
-                        </div>
 
                     </div>
                 </div>

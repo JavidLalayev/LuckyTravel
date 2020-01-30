@@ -124,7 +124,7 @@
                     <!--Isdifadeciler ve mesajlar-->
                     <li>
                         <a class="collapsible-header waves-effect arrow-r">
-                            <i class="w-fa fas fa-user"></i><?php echo ($this->session->userdata("user_role") != 0) ? "Adminlər və İstifadəçilər" : "İstifadəçilər və Partnyorlar"?><i class="fas fa-angle-down rotate-icon"></i>
+                            <i class="w-fa fas fa-user"></i>Adminlər və İstifadəçilər<i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
@@ -150,6 +150,13 @@
                                     </a>
                                 </li>
 
+                                <!-- Mesajlar -->
+                                <li>
+                                    <a href="<?php echo base_url("Panel_admin_page_messages")?>" class="collapsible-header waves-effect">
+                                        <i class="far fa-comment"></i>
+                                        Mesajlar
+                                    </a>
+                                </li>
 
                                 <!-- Partnyorlar -->
                                 <li>
@@ -163,39 +170,6 @@
                         </div>
                     </li>
                     <!--Isdifadeciler ve mesajlar-->
-
-
-
-
-                    <!--Qeydiyyat-->
-                    <li>
-                        <a class="collapsible-header waves-effect arrow-r">
-                            <i class="w-fa fas fa-user"></i>Qeydiyyat<i class="fas fa-angle-down rotate-icon"></i>
-                        </a>
-                        <div class="collapsible-body">
-                            <ul>
-
-                                <!-- Mesajlar -->
-                                <li>
-                                    <a href="<?php echo base_url("Panel_admin_page_register_about")?>" class="collapsible-header waves-effect">
-                                        <i class="far fa-comment"></i>
-                                        Qeydiyyat Haqqında
-                                    </a>
-                                </li>
-
-                                <!-- Mesajlar -->
-                                <li>
-                                    <a href="<?php echo base_url("Panel_admin_page_messages")?>" class="collapsible-header waves-effect">
-                                        <i class="far fa-comment"></i>
-                                        Qeydiyyat Mesajları
-                                    </a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </li>
-                    <!--Qeydiyyat-->
-
 
 
                     <!--Xidmetler-->

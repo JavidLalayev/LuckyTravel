@@ -57,7 +57,6 @@
         </div>
         <div class="find-form no-padding col-xs-12 col-md-4">
             <div>
-
                 <h4 class="ff_subtitle">
 
                     <span style="color: #153a0f"><?php echo $this->session->flashdata("sccs")?></span>
@@ -65,10 +64,7 @@
 
 <!--                    --><?php //echo $this->lang->line("elaqe"); ?>
                 </h4>
-
-                <div class="form-label color-white"><?php echo $register_about["desc_$lang"]; ?></div>
-                <br>
-
+                <div class="ff_text"></div>
                 <form method="post" action="<?php echo base_url("az/message_send")?>" >
                 <div class="form-block clearfix">
                     <div class="form-label color-white"><?php echo $this->lang->line("your_name"); ?></div>

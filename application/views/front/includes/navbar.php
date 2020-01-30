@@ -230,7 +230,21 @@
                         </ul>
                     </nav>
                 </div>
+
+
+
             </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3 center-block">
+                <form action='<?php  echo base_url("$lang/tours")?>' method="post">
+                    <div class="input-style-1 b-50 color-3">
+                        <img src="<?php echo base_url("public/front/")?>img/search_icon_small_grey.png" alt="">
+                        <input type="text" class="form-control"  name="search_value" placeholder="<?php echo $this->lang->line("write_tour_name") ?>">
+                    </div>
+                 </form>
+            </div>
+
         </div>
+
     </div>
 </header>

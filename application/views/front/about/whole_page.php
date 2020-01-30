@@ -12,18 +12,19 @@
 
 <?php $lang = $this->session->userdata("dil") ?>
 
-<div class="inner-banner style-6">
+<div class="inner-banner style-5">
     <img class="center-image" src="<?php echo base_url("public/front/")?>img/inner/bg_1.jpg" alt="">
     <div class="vertical-align">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-2">
                     <ul class="banner-breadcrumb color-white clearfix">
-                        <li><a class="link-blue-2" href="<?php echo base_url("$lang/home")?>"><?php echo $this->lang->line("ana_sehife")?></a> /</li>
-                        <li><a class="link-blue-2"><?php echo $this->lang->line("haqqimizda")?></a> /</li>
-                        <li><span></span></li>
+                        <li><a class="link-blue-2" href="#">home</a> /</li>
+                        <li><a class="link-blue-2" href="#">tours</a> /</li>
+                        <li><span>list tours</span></li>
                     </ul>
-                    <h2 class="color-white"><?php echo $this->lang->line("haqqimizda")?></h2>
+                    <h2 class="color-white">all tours for you</h2>
+                    <p class="color-white-light">Curabitur nunc erat, consequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi quis leo elementum. Lorem ipsum dolor sit.</p>
                 </div>
             </div>
         </div>

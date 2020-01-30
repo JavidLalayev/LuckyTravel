@@ -26,7 +26,6 @@
      {
 
          $data['logo'] = $this->Core->get_where_row(array("id" => 1), "logo");
-         $data['register_about'] = $this->Core->get_where_row(array(), "register_about");
 
 
          $data['mslides'] = $this->Core->get_desc('main_slide');

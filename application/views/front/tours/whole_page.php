@@ -14,7 +14,7 @@
 
 <div class="inner-banner">
     <img class="center-image" src="<?php echo base_url("public/front/")?>img/tour_list/inner_banner_1.jpg" alt="">
-    <div class="vertical-align">
+    <div class="vertical-align">;
         <div class="container">
 
             <h2 class="color-white"><?php echo $this->lang->line("our_tours") ?></h2>

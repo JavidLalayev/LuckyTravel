@@ -35,7 +35,14 @@
          $data["contact"] = $this->Core->get_where_row(array("id"=>1), "contact");
          //bunnar butun controllerde ve metodlarda olmalidi
 
+         $search_value = strip_tags($this->input->post("search_value"));
+
          $this->session->unset_userdata("search_value");
+
+         if (!empty($search_value)){
+             $this->session->set_userdata("search_value", $search_value);
+         }
+
          $this->session->unset_userdata("date_value");
          $this->session->unset_userdata("end_date_value");
          $this->session->unset_userdata("order_popularity");
@@ -49,6 +56,12 @@
 
          $this->load->view("$this->parent_folder/$this->sub_folder/whole_page", $data);
      }
+
+
+
+
+
+
 
      public function load_data()
      {

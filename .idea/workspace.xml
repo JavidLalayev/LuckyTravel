@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48d55736-300d-4483-8471-accfbd5b778c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/HomeWebPageCoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/HomeWebPageCoding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/ToursWebPageCoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/ToursWebPageCoding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/language/az/az_lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/language/az/az_lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/includes/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/front/about/whole_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front/about/whole_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/front/home/whole_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front/home/whole_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/front/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/front/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/front/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front/includes/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/front/tours/whole_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front/tours/whole_page.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +67,9 @@
       <updated>1578812279813</updated>
       <workItem from="1578812280952" duration="2768000" />
       <workItem from="1578819072333" duration="11000" />
+      <workItem from="1580396482104" duration="24000" />
+      <workItem from="1580396581941" duration="7000" />
+      <workItem from="1580396678254" duration="7000" />
     </task>
     <servers />
   </component>

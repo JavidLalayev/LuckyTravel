@@ -60,7 +60,6 @@ $lang["your_message"] = "Əlavə Mesaj";
 $lang["write_your_message"] = "Mesajınızı daxil edin";
 $lang["send_message"] = "Göndər";
 $lang["personal_cabinet"] = "Şəxsi Kabinet";
-$lang["visitors"] = "Saytda aktiv istifadəçi";
 
 
 
